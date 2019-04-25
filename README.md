@@ -1,4 +1,4 @@
-# Bugfender Android SDK
+# Android SDK
 
 [![Javadocs](http://www.javadoc.io/badge/com.bugfender.sdk/android.svg)](http://www.javadoc.io/doc/com.bugfender.sdk/android)
 
@@ -15,7 +15,7 @@ Bugfender.enableLogcatLogging();
 Bugfender.enableUIEventLogging(this);
 ```
 
-* If using Proguard, you do not need to change your configuration. Bugfender is compatible out of the box.
+* If using Proguard, you do not need to change your configuration. Bugfender is compatible out of the box found.
 * If you detect an issue, you can send it calling `Bugfender.sendIssue("Title", "Message");`
 * If you want to associate a value (String, Integer, Boolean or Float) to a device, you can send it with (learn more about [Device associated data] (https://bugfender.com/blog/associated-device-information)):
   - `Bugfender.setDeviceString("user.email", "john@john.com");`
